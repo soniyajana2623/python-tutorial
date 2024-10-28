@@ -8,10 +8,10 @@ print(a)
 c={1:"pineapple",2:"papaya",3:"banana"}
 # c.clear()
 # print(c)
-c.popitem()  #last key hatt jata hai
-c.pop(1)  #koi bhi ek key hatane ke liye use hota hai
-print(c)
-del c # del key pura dict ko delete kar deta hai
-
+# c.popitem()  #last key hatt jata hai
+# c.pop(1)  #koi bhi ek key hatane ke liye use hota hai
+# print(c)
+# del c # del key pura dict ko delete kar det
+print(type(c))
 
  
