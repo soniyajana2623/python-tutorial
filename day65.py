@@ -1,4 +1,5 @@
-'''STATIC METHOD
+'''
+STATIC METHOD:
 '''
 
 

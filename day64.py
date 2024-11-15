@@ -1,22 +1,28 @@
 class library:
-    def __init__(self,books,no_of_books):
-        self.books=books
-        self.no_of_books=no_of_books
+    def __init__(self):
+        self.books=[]
+        self.no_of_books = 0
+       
     
-    def show_no(self):
-        print(f"The number of books: {self.no_of_books}")
+    def show_no(self,book):
+        self.books.append(book)
+        self.no_of_books=len(self.books)
+
+    def showinfo(self):
+        print(f"The library has {self.no_of_books} books. The books are")
         for book in self.books:
             print(book)
-    
-    def check(self):
-        if self.books==self.no_of_books:
-            print(True)
-        else:
-            print(False)
+
     
 
-book=(["It ends with us","Rich dad poor dad","Atomic habbits","Ikigai"])
-a=library(book,len(book))
-a.show_no()
-a.check
+a=library()
+a.show_no("Ikigai")
+a.show_no("Atomic habbits")
+a.show_no("It ends with us")
+a.show_no("Rich dad poor dad")
+a.showinfo()
+
+
+
+
 
