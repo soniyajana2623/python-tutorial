@@ -7,21 +7,27 @@ class details:
     
     
 a=details()
-b=details()
-c=details()
-d=details()
-
 a.name="Nikita"
 a.age= 20
 
+b=details()
 b.name="Sanjay"
 b.age= 27
 
+c=details()
 c.name="Vishwam"
 c.age= 6
 
-# d.name="Varnika"
-# d.age= 10
+d=details()
+d.name="Varnika"
+d.age= 10
+
+
+
+
+
+
+
 
 # object=details()
 # print(object.name)
